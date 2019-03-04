@@ -21,3 +21,82 @@
     url("../fonts/lato/latobold.ttf") format("ttf");
   font-weight: bold;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+
+  background-color: #323232;
+  list-style: none;
+}
+
+.menu__item {
+  display: inline;
+  margin: 0 12px;
+  padding-top: 7px;
+}
+
+.menu__link {
+  font-weight: bold;
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.menu__link:hover {
+  color: #2eb398;
+  transition: 0.2s;
+}
+
+.logo {
+  margin: 0 22px;
+  transform: translate(2px, 6px);
+}
+
+.header__triangle {
+  display: block;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 26px 46px 0 46px;
+  border-color: #323232 transparent transparent transparent;
+}
+
+.header__line {
+  width: 0;
+  margin: -15px auto;
+}
+
+.header__line::before {
+  content: '';
+  display: block;
+  width: 410px;
+  height: 1px;
+  background-color: #e4e9eb;
+  margin: 0 70px;
+}
+
+.header__line::after {
+  content: '';
+  display: block;
+  width: 410px;
+  height: 1px;
+  background-color: #e4e9eb;
+  transform: translate(-100%, -1px);
+  margin: 0 -70px;
+}
