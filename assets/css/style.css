@@ -27,7 +27,14 @@
   padding: 0;
 }
 
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
 .header {
+  margin-bottom: 91px;
+
   text-align: center;
 }
 
@@ -37,8 +44,9 @@
   align-items: center;
   height: 63px;
 
-  background-color: #323232;
   list-style: none;
+
+  background-color: #323232;
 }
 
 .menu__item {
@@ -54,26 +62,30 @@
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
+
   transition: 0.2s;
 }
 
 .menu__link:hover {
   color: #2eb398;
+
   transition: 0.2s;
 }
 
 .logo {
   margin: 0 22px;
+
   transform: translate(2px, 6px);
 }
 
 .header__triangle {
   display: block;
-  margin: 0 auto;
   width: 0;
   height: 0;
-  border-style: solid;
+  margin: 0 auto;
+
   border-width: 26px 46px 0 46px;
+  border-style: solid;
   border-color: #323232 transparent transparent transparent;
 }
 
@@ -83,20 +95,119 @@
 }
 
 .header__line::before {
-  content: '';
+  content: "";
+
   display: block;
   width: 410px;
   height: 1px;
-  background-color: #e4e9eb;
   margin: 0 70px;
+
+  background-color: #e4e9eb;
 }
 
 .header__line::after {
-  content: '';
+  content: "";
+
   display: block;
   width: 410px;
   height: 1px;
+  margin: 0 -70px;
+
   background-color: #e4e9eb;
   transform: translate(-100%, -1px);
-  margin: 0 -70px;
+}
+
+.portfolio::after {
+  content: "";
+
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 11px 29px;
+
+  background-color: #e4e9eb;
+}
+
+.row {
+  position: relative;
+
+  height: 168px;
+
+  text-align: center;
+}
+
+.cell {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.row:nth-child(odd) .cell:first-child::before {
+  content: "";
+  position: absolute;
+
+  display: block;
+  width: 1px;
+  height: 106px;
+
+  background-color: #e4e9eb;
+  transform: translate(-21px, 51px);
+}
+
+.row:nth-child(odd) .cell:last-child::before {
+  content: "";
+  position: absolute;
+
+  display: block;
+  width: 1px;
+  height: 106px;
+
+  background-color: #e4e9eb;
+  transform: translate(200px, 51px);
+}
+
+.hex {
+  width: 180px;
+  height: 208px;
+  overflow: hidden;
+
+  transform: rotate(60deg);
+}
+
+.hex__layer {
+  width: 180px;
+  height: 208px;
+  overflow: hidden;
+
+  transform: rotate(60deg);
+}
+
+.hex__img {
+  width: 180px;
+  height: 208px;
+
+  transform: rotate(-120deg);
+
+  object-fit: cover;
+}
+
+.slider-controls {
+  margin-top: 99px;
+  margin-left: 30px;
+
+  list-style: none;
+  font-size: 0;
+}
+
+.slider-controls__item {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 3px;
+
+  background: #ddd2c5;
+  cursor: pointer;
+}
+
+.slider-controls__item__active {
+  background-color: #8b8784;
 }
