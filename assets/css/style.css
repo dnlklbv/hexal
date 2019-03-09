@@ -1,25 +1,28 @@
 @font-face {
+  font-weight: regular;
   font-family: "Maven Pro";
+
   src: url("../fonts/mavenpro/Mavenproregular.woff2") format("woff2"),
-    url("../fonts/mavenpro/Mavenproregular.woff") format("woff"),
-    url("../fonts/mavenpro/Mavenproregular.ttf") format("ttf");
-  font-weight: regular;
+  url("../fonts/mavenpro/Mavenproregular.woff") format("woff"),
+  url("../fonts/mavenpro/Mavenproregular.ttf") format("ttf");
 }
 
 @font-face {
+  font-weight: regular;
   font-family: "Lato";
+
   src: url("../fonts/lato/latoregular.woff2") format("woff2"),
-    url("../fonts/lato/latoregular.woff") format("woff"),
-    url("../fonts/lato/latoregular.ttf") format("ttf");
-  font-weight: regular;
+  url("../fonts/lato/latoregular.woff") format("woff"),
+  url("../fonts/lato/latoregular.ttf") format("ttf");
 }
 
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/latobold.woff2") format("woff2"),
-    url("../fonts/lato/latobold.woff") format("woff"),
-    url("../fonts/lato/latobold.ttf") format("ttf");
   font-weight: bold;
+  font-family: "Lato";
+
+  src: url("../fonts/lato/latobold.woff2") format("woff2"),
+  url("../fonts/lato/latobold.woff") format("woff"),
+  url("../fonts/lato/latobold.ttf") format("ttf");
 }
 
 * {
