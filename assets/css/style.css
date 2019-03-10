@@ -25,6 +25,10 @@
   url("../fonts/lato/latobold.ttf") format("ttf");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -213,6 +217,18 @@
   transform: rotate(-120deg);
 
   object-fit: cover;
+}
+
+.hex_animated {
+  cursor: pointer;
+
+  transition: filter 0.15s;
+}
+
+.hex_animated:hover {
+  filter: contrast(115%);
+
+  transition: filter 0.15s;
 }
 
 .slider-controls {
