@@ -441,3 +441,21 @@
 
   transition: 0.2s;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 43px;
+
+  background-color: #222222;
+}
+
+.container_footer {
+  width: 945px;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  font-family: "Maven Pro", sans-serif;
+  color: #454545;
+}
