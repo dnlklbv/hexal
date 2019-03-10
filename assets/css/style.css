@@ -35,6 +35,16 @@
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+  clip: rect(0 0 0 0);
+}
+
 .header {
   margin-bottom: 91px;
 
@@ -275,7 +285,7 @@
   color: #ffffff;
 }
 
-.h1 {
+.h2 {
   margin-bottom: 8px;
 
   font-size: 30px;
@@ -284,7 +294,7 @@
   color: #ffffff;
 }
 
-.h1__second-line {
+.h2__second-line {
   display: block;
 
   font-size: 18px;
