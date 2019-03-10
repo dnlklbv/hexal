@@ -58,6 +58,19 @@
   padding-top: 7px;
 }
 
+.menu__item:nth-child(1)::after,
+.menu__item:nth-child(4)::after {
+  content: "";
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin-top: 9px;
+  margin-left: 11px;
+
+  background-color: #ffffff;
+}
+
 .menu__link {
   font-weight: bold;
   font-size: 10px;
