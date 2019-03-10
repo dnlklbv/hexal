@@ -339,3 +339,105 @@
 .socials_dribbble {
   background-image: url(../img/icons/dribbble.svg);
 }
+
+.get-in-touch {
+  background-color: #323232;
+}
+
+.text-color_white {
+  color: #ffffff;
+}
+
+.container_get-in-touch {
+  width: 777px;
+  padding: 65px 0;
+}
+
+.get-in-touch__content {
+  display: flex;
+  margin-top: 15px;
+}
+
+.get-in-touch__info {
+  margin-left: 20px;
+
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+}
+
+.get-in-touch__list {
+  margin-top: 38px;
+
+  list-style: none;
+}
+
+.get-in-touch__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.get-in-touch__link:hover {
+  color: #2eb398;
+}
+
+.link__icon {
+  height: 10px;
+  margin-right: 10px;
+}
+
+.get-in-touch__form {
+  position: relative;
+
+  width: 100%;
+}
+
+.form__input {
+  width: 555px;
+  height: 38px;
+  margin-bottom: 16px;
+  padding: 0 12px;
+
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+
+  background-color: #454545;
+  border: none;
+
+  resize: none;
+}
+
+.form__input::placeholder {
+  color: #bebebe;
+}
+
+.form__textarea {
+  height: 125px;
+  padding: 10px 12px;
+}
+
+.form__button {
+  position: absolute;
+  right: 0;
+
+  float: right;
+  padding: 11px 30px;
+
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+
+  background-color: #2eb398;
+  border: none;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.form__button:hover {
+  background-color: #6dcbbe;
+
+  transition: 0.2s;
+}
